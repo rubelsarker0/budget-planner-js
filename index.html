@@ -71,8 +71,56 @@
                                         required />
                                 </div>
                             </div>
+                            <!-- error message  -->
+                            <div id="error-message" class="alert alert-danger text-center d-none mt-3" role="alert">
+                                Please provide a valid number!
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="button"
+                                class="btn generic-btn-color text-white text-uppercase fw-bold px-5 my-4"
+                                id="calculate-btn">
+                                Calculate
+                            </button>
+                            <h4 class="my-3">
+                                Total Expenses:<span id="total-expenses" class="ms-2">0</span>
+                            </h4>
+                            <h4>Balance:<span id="balance" class="ms-2">0</span></h4>
                         </div>
 
+                        <!-- Save section -->
+                        <div class="save-container text-center my-5">
+                            <div class="row g-0">
+                                <div class="col-6">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <label for="save" class="col-form-label fs-5">Save:</label>
+                                        </div>
+                                        <div class="col-8">
+                                            <input type="text" id="save" class="form-control"
+                                                aria-describedby="saveHelpInline" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <span class="me-5 percentage fw-bold fs-5">%</span>
+                                    <button type="button"
+                                        class="btn btn-save generic-btn-color text-white text-uppercase fw-bold"
+                                        id="btn-save">
+                                        Save
+                                    </button>
+                                </div>
+                                <div id="save-error" class="alert alert-danger text-center d-none mt-3" role="alert">
+                                    Please provide a valid number!
+                                </div>
+                            </div>
+                            <div class="py-3">
+                                <h4 class="my-3">
+                                    Saving Amount:<span id="saving-amount" class="ms-2">0</span>
+                                </h4>
+                                <h4>Remaining Balance:<span id="remaining-balance" class="ms-2">0</span></h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
