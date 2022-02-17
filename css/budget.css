@@ -1,0 +1,19 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;700&display=swap');
+
+body {
+	font-family: 'Spectral', serif;
+}
+
+/* generic styles */
+.generic-color {
+	color: rgb(88 39 207) !important;
+}
+
+.generic-bg-color {
+	background-color: #f8f8f8;
+}
+
+.generic-btn-color {
+	background-color: rgb(88 39 207) !important;
+}
