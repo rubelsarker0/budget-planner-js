@@ -17,3 +17,13 @@ body {
 .generic-btn-color {
 	background-color: rgb(88 39 207) !important;
 }
+
+.percentage {
+	margin-right: 80px !important;
+}
+
+@media only screen and (max-width: 688px) {
+	.percentage {
+		margin-right: 20px !important;
+	}
+}
